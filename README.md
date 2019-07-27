@@ -5,12 +5,15 @@ start a local consul server
 `consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=127.0.0.1`
 
 
-set the environment variable
+set the environment variables for the spring application to use
 
+```
 set CONSUL_NAME=2222
 
-export CONSUL_NAME=2222
+or 
 
+export CONSUL_NAME=2222
+```
 
 run the application
 
